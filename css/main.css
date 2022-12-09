@@ -1,0 +1,84 @@
+body {
+  font-family: "Times New Roman", "Raleway", "Film P3", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  padding-left: 123px;
+  padding-right: 123px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+@font-face {
+  font-family: "Scania Sans CY Regular";
+  src: url("ScaniaSansCY-Regular.eot");
+  src: url("ScaniaSansCY-Regular.eot?#iefix") format("embedded-opentype"), url("ScaniaSansCY-Regular.woff") format("woff"), url("ScaniaSansCY-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque Light";
+  src: url("LabGrotesque-Light.eot");
+  src: url("LabGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("LabGrotesque-Light.woff") format("woff"), url("LabGrotesque-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --color-gray: #949494;
+  --color-dark-gray: #6D6D6D;
+  --color-accent-yellow: #FFCF7A;
+  --color-logo: #FFFFFF;
+  --color-title-gray: #757575;
+  --color-black: #121212;
+  --color-background-black: #121212;
+  --color-background-dark: #1E1E1E;
+}
+
+.header {
+  background: var(--color-background-dark);
+}/*# sourceMappingURL=main.css.map */
